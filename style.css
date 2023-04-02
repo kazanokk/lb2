@@ -1,0 +1,23 @@
+#interval{
+    margin-bottom: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(210, 235, 69);
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LB_2_Trypoliev</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <label for="interval">Інтервал (мс):</label>
+    <input type="number" id="interval" name="interval" min="100" value="100">
+    <button onclick="start()">Почати</button>
+    <button onclick="stop()">Зупинити</button>
+    <table>
+      <thead>
+        <tr>
+          <th>Номер</th>
+          <th>Ім'я</th>
+          <th>Вік</th>
+          <th>Електронна пошта</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody">
+      </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
